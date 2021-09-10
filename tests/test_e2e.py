@@ -118,6 +118,7 @@ class TestSuite(BaseClass):
         dataFrame1['Date of Application'] = dataFrame1['Date of Application'].astype(str)
 
         print("Dataframe Contents fetched from excel:")
+
         print(dataFrame1.to_string())
 
         # compare dataframes and print the entries from excel that does not match with application
